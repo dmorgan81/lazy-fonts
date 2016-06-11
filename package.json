@@ -1,0 +1,29 @@
+{
+  "name": "lazy-fonts",
+  "description": "Load fonts for Pebble apps the lazy way.",
+  "author": "David Morgan",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spitemare/lazy-fonts.git"
+  },
+  "files": [
+    "dist.zip"
+  ],
+  "keywords": [
+    "pebble-package"
+  ],
+  "dependencies": {
+    "@smallstoneapps/linked-list": "^1.2.2"
+  },
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ]
+  }
+}
