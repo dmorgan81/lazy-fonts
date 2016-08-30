@@ -3,7 +3,7 @@
   "description": "Load fonts for Pebble apps the lazy way.",
   "author": "David Morgan",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Spitemare/lazy-fonts.git"
@@ -23,7 +23,8 @@
     "targetPlatforms": [
       "aplite",
       "basalt",
-      "chalk"
+      "chalk",
+      "diorite"
     ]
   }
 }
